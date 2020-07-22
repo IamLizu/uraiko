@@ -16,3 +16,6 @@ https://iamlizu.com/
 ```
 
 Please look for logs at '~/Documents/uraiko.log'
+
+### What's new in version 1.0.1
+* Minor bug fixes

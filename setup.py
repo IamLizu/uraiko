@@ -6,7 +6,7 @@ with open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
 setup(
   name = 'uraiko',
   packages = ['uraiko'],
-  version = '1.0.0',
+  version = '1.0.1',
   license='MIT',
   description = 'Simplest url checker on checker!',
   long_description=long_description,
@@ -14,14 +14,8 @@ setup(
   author = 'S M Mahmudul Hasan',
   author_email = 'thegeek@iamlizu.com',
   url = 'https://iamlizu.com/tools/uraiko/',
-  download_url = 'https://github.com/IamLizu/uraiko/archive/v_1_0_0.tar.gz',
+  download_url = 'https://github.com/IamLizu/uraiko/archive/v_1_0_1.tar.gz',
   keywords = ['url', 'analyze', 'redirect'],
-  install_requires=[
-          'urllib.request',
-          'logging',
-          'os',
-          'sys',
-      ],
   classifiers=[
     'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
