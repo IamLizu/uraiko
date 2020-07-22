@@ -27,6 +27,6 @@ Usage
 
 Please look for logs at '~/Documents/uraiko.log'
 
-What's new in version 1.0.1
+What's new in version 1.0.2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Minor bug fixes
