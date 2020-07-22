@@ -6,15 +6,15 @@ with open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
 setup(
   name = 'uraiko',
   packages = ['uraiko'],
-  version = '1.0.2',
+  version = '1.0.3',
   license='MIT',
-  description = 'Simplest url checker on checker!',
+  description = 'Simplest url checker on earth!',
   long_description=long_description,
   long_description_content_type='text/rst',
   author = 'S M Mahmudul Hasan',
   author_email = 'thegeek@iamlizu.com',
   url = 'https://iamlizu.com/tools/uraiko/',
-  download_url = 'https://github.com/IamLizu/uraiko/archive/v_1_0_2.tar.gz',
+  download_url = 'https://github.com/IamLizu/uraiko/archive/v_1_0_3.tar.gz',
   keywords = ['url', 'analyze', 'redirect'],
   classifiers=[
     'Development Status :: 5 - Production/Stable',

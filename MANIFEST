@@ -3,4 +3,3 @@ README.rst
 setup.cfg
 setup.py
 uraiko\__init__.py
-uraiko\__main__.py

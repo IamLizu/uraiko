@@ -16,6 +16,7 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 err_instruction =  "Something is wrong, please check '" + str(log_file) + "'"
+err_notice = "Please talk to the dev if you think this is a mistake."
 
 def url_check(url):
     logger.info("Checking: " + str(url))
@@ -45,11 +46,14 @@ def url_check(url):
                 url_check(url)
             except urllib.error.URLError:
                 logger.error("Couldn't open url, please make sure to type a valid and publicly accessible url")
+                logger.info(err_notice)
                 sys.exit(err_instruction)
         else:
             logger.error("Couldn't open url, please make sure to type a valid and publicly accessible url")
+            logger.info(err_notice)
             sys.exit(err_instruction)
     except ValueError:
         logger.error("Invalid url! Please type in correct url")
+        logger.info(err_notice)
         sys.exit(err_instruction)
     return url
